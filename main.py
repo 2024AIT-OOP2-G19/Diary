@@ -1,10 +1,17 @@
 from diaries.DiarySample import DiarySample
 from diaries.HattoriDiary import HattoriDiary
-# ↓のリストには、メンバーの各日記が格納されます。
+from diaries.TsugeDiary import TsugeDiary
+from diaries.OgasawaraDiary import OgasawaraDiary
+from diaries.HayashiDiary import HayashiDiary
+
 diaries = [
     DiarySample(), 
     HattoriDiary(),
+    TsugeDiary(),
+    OgasawaraDiary(),
+    HayashiDiary()
     ] 
+
 
 for d in diaries:
     print("---------------------------------")

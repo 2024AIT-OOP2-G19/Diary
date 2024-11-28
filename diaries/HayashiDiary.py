@@ -1,10 +1,10 @@
 from diaries.AbstractDiary import AbstractDiary
 
-class DiarySample(AbstractDiary):
+class HayashiDiary(AbstractDiary):
 
-    def get_date(self):
+    def get_data(self):
         return "2024-11-28"
-
+    
     def get_summary(self):
         return "難しかった"
 

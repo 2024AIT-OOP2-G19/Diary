@@ -1,10 +1,8 @@
 from diaries.DiarySample import DiarySample
-
 from diaries.HattoriDiary import HattoriDiary
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [
-    DiarySample(),
-    
+    DiarySample(), 
     HattoriDiary(),
     ] 
 

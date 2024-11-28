@@ -9,4 +9,4 @@ class DiarySample(AbstractDiary):
         return "今日も平凡なりけり"
 
     def get_author(self):
-        return "kami"
+        return "Hattori"
